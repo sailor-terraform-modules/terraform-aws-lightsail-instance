@@ -14,4 +14,7 @@ variable "key_pair_name" {
   type        = string
   description = "The name of your key pair."
 }
-
+variable "bundle_id" {
+  type        = string
+  description = "The bundle of specification information."
+}
